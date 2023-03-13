@@ -31,7 +31,7 @@ input[type="submit"], button {
   border-radius: 5px;
 }
 
-input[type="submit"]:hover, button:hover {
+input[type="submit"]:hover, button:hover, input[type="button"]:hover {
   background-color: #006799;
 }
 
@@ -148,4 +148,17 @@ label{
     height: 100%;
     margin: 10px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#listarPreco{
+  width: 120px;
+  background: var(--cor-primaria);
+  color: #fff;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  
 }
